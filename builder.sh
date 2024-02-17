@@ -113,7 +113,7 @@ git pull
 rm -rf openipc  # Weed work with this command
 if [ ! -d "$FIRMWARE_DIR" ]; then
     echo_c 33 "\nDownloading Firmware"
-    git clone --depth=1 https://github.com/OpenIPC/firmware.git "$FIRMWARE_DIR"
+    git clone --depth=1 https://github.com/m0nk1111/firmware.git "$FIRMWARE_DIR"
     cd "$FIRMWARE_DIR"
 else
     echo_c 33 "\nUpdating Firmware"
